@@ -1,0 +1,53 @@
+
+
+#fp = raw_input("Enter the name of your text file - please use / backslash when typing in directory path:  "); subprocess.call(['vcs', fp])
+
+
+#fname = raw_input("..."); subprocess.call(['vcs', fname]) – cᴏʟᴅsᴘᴇᴇᴅ 20 hours ago 
+
+
+#vcs fp
+#fp = open("/home/011999637@SJSUAD.SJSU.EDU/Downloads/firstscript.txt ",'w+')
+#fp.write("Internship on the cards #DoneDeal")
+#fp.seek(0)
+#print(fp.read())
+#fp.close()
+# python ./create_a_file.py
+# vcs file.v
+#  ./simv
+
+
+
+
+def main():
+    directory = '/home/011999637@SJSUAD.SJSU.EDU/Downloads/EE 271 Codes/python'
+    files = list_files(directory, "vcd")
+    for f in files:
+        subprocess.call(['gtkwave', f])
+
+main()
+
+
+
+
+
+#import os
+
+#for file in os.listdir("/home/011999637@SJSUAD.SJSU.EDU/Downloads/EE 271 Codes/python"):
+#    if file.endswith(".vcd"):
+#        subprocess.call(['gtkwave', file])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
